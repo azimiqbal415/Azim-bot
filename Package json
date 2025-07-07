@@ -1,1 +1,59 @@
-
+{
+  "name": "RIDOY-BOT",
+  "version": "1.0.0",
+  "description": "❤️🔥 Made with Love & Fire by রিদয় - The Romantic Bot ❤️‍🔥",
+  "main": "Ridoy.js",
+  "engines": {
+    "node": "20.x",
+    "npm": "10.0.0"
+  },
+  "scripts": {
+    "start": "node Ridoy.js",
+    "login": "node login",
+    "test": "node --trace-warnings --use_strict --async-stack-traces mirai"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ridoy-bot/ridoy-love-bot.git"
+  },
+  "keywords": [
+    "messenger-bot",
+    "romantic-bot",
+    "ridoy",
+    "facebook-bot",
+    "hot-chat",
+    "love-bot",
+    "bangla-bot",
+    "ridoy-bot"
+  ],
+  "author": "❤️ রিদয় 〄",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ridoy-bot/ridoy-love-bot/issues"
+  },
+  "homepage": "https://github.com/ridoy-bot/ridoy-love-bot",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "chalk": "^4.1.2",
+    "cheerio": "^0.22.0",
+    "cron": "^2.1.0",
+    "express": "^4.19.2",
+    "fs-extra": "^10.1.0",
+    "moment-timezone": "^0.5.37",
+    "node-fetch": "^2.6.9",
+    "node-cron": "^3.0.2",
+    "openai": "^3.2.1",
+    "fca-priyansh": "^18.0.0",
+    "lyrics-finder": "^21.7.0",
+    "googlethis": "^1.2.9",
+    "image-downloader": "^4.3.0",
+    "jimp": "^0.16.13",
+    "sqlite3": "^5.1.1",
+    "string-similarity": "^4.0.4",
+    "systeminformation": "^5.21.11",
+    "random-cat-img": "^1.0.4",
+    "to-zalgo": "^1.0.1",
+    "uuid-apikey": "^1.5.3",
+    "ws3-fca": "^1.0.23"
+  }
+}
