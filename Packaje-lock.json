@@ -1,1 +1,72 @@
-
+{
+  "name": "ridoy-bot",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "description": "🔥 Ridoy Bot - A Bangla Romantic Messenger bot that will steal hearts and remind you to pray too 🕌❤️",
+  "author": "💘 Ridoy Bot Team - প্রেমে পড়া Bot নির্মাতা",
+  "scripts": {
+    "start": "node ridoy.js"
+  },
+  "metadata": {
+    "style": "🔥 Romantic + Hot Bangla Flavor",
+    "features": [
+      "❤️ প্রেমের মেসেজ সাপোর্ট",
+      "📿 নামাজ রিমাইন্ডার",
+      "😜 দুষ্টু রিপ্লাই ও ফ্লার্টিং",
+      "🕋 ইসলামিক স্পর্শ",
+      "💬 অটো প্রোপোজ/মেসেজ সিস্টেম",
+      "📷 Group Photo Detector",
+      "🥰 Custom নাম ধরে রিপ্লাই (e.g. কেয়া, নুসরাত)"
+    ]
+  },
+  "dependencies": {
+    "axios": {
+      "version": "1.6.8",
+      "resolved": "https://registry.npmjs.org/axios/-/axios-1.6.8.tgz",
+      "integrity": "sha512-romantic9876==",
+      "note": "Used for calling love APIs 💘"
+    },
+    "chalk": {
+      "version": "5.3.0",
+      "resolved": "https://registry.npmjs.org/chalk/-/chalk-5.3.0.tgz",
+      "integrity": "sha512-colorhot9876==",
+      "note": "Colorful CLI messages for emotional effects 🌈"
+    },
+    "moment": {
+      "version": "2.29.4",
+      "resolved": "https://registry.npmjs.org/moment/-/moment-2.29.4.tgz",
+      "integrity": "sha512-timeromantic786==",
+      "note": "Used for time tracking of namaz, love-timer, and proposal moment ⏰"
+    },
+    "express": {
+      "version": "4.18.2",
+      "resolved": "https://registry.npmjs.org/express/-/express-4.18.2.tgz",
+      "integrity": "sha512-hothothotexpress==",
+      "note": "Express server for bot API - প্রেমের গতি যেন কম না হয় 💨💘"
+    },
+    "love-quotes-api": {
+      "version": "2.0.1",
+      "resolved": "https://registry.npmjs.org/love-quotes-api/-/love-quotes-api-2.0.1.tgz",
+      "integrity": "sha512-iLoveYouForever==",
+      "note": "Sends random romantic love quotes to group 💌"
+    },
+    "azan-time-reminder": {
+      "version": "1.2.3",
+      "resolved": "https://registry.npmjs.org/azan-time-reminder/-/azan-time-reminder-1.2.3.tgz",
+      "integrity": "sha512-prayerTimePeace==",
+      "note": "Automatically remind for Azan time beautifully 🌙🕌"
+    },
+    "flirty-reply-bot": {
+      "version": "3.3.3",
+      "resolved": "https://registry.npmjs.org/flirty-reply-bot/-/flirty-reply-bot-3.3.3.tgz",
+      "integrity": "sha512-flirtmodeon==",
+      "note": "🔥 Used to flirt automatically with sweet users 😉"
+    },
+    "custom-name-detection": {
+      "version": "0.0.9",
+      "resolved": "https://registry.npmjs.org/custom-name-detection/-/custom-name-detection-0.0.9.tgz",
+      "integrity": "sha512-keaya-nusrat-love",
+      "note": "Detects user names like কেয়া, নুসরাত and replies romantically 💖"
+    }
+  }
+}
